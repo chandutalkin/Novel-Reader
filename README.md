@@ -1,5 +1,5 @@
 # Novel-Reader
-A ready to use responsive web app template powered by VueJs &amp; node Js. It consists of express backend, Vuejs frontend, Mysql DB Schema &amp; Admin Panel using adminjs to Create and manage records in database
+A ready to use responsive web app template for a online novel reading platform powered by VueJs &amp; node Js. It consists of express backend, Vuejs frontend, Mysql DB Schema &amp; Admin Panel using adminjs to Create and manage records in database
 
 
 # step1 
