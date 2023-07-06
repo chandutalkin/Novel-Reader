@@ -7,8 +7,7 @@ A ready to use responsive web app template powered by VueJs &amp; node Js. It co
  run create table scripts in backend/tables.txt file
 
 # step2
- go to novelscrape-admin folder run below command
- node app.js
+ go to novelscrape-admin folder run /n node app.js /n
  create records for your project using admin panel
 
 # step3
