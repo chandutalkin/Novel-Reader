@@ -5,11 +5,8 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '12345678',
-    // host: 'novelstestdb.cmx0axkainyq.ap-south-1.rds.amazonaws.com',
-    // user: 'bhanuthescraper',
-    // password: 'Yum#Chandu$50650',
-    port: '3306',
-    database: 'sampleProjectData'
+  port: '3306',
+  database: 'sampleProjectData'
 })
 //implement try catch for all the await queries for possible error scenarios
 connection.connect();
