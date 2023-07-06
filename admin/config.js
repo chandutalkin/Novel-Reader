@@ -4,7 +4,7 @@ const dbConfig = {
     PASSWORD: "12345678",
     PORT: "3306",
     DB: "novels",
-    dialect: "mysql",
+    dialect: "sampleProjectData",
     pool: {
       max: 5,
       min: 0,
