@@ -1,0 +1,57 @@
+// @import 'wave-ui/src/wave-ui/scss/_variables.scss';
+
+
+
+$primary: #202121;
+$secondary: #49c5b6;
+$secondary-dark: #42ab9e;
+$light: #f4f7f6;
+$grey: #e6eaea;
+$white: #ffffff;
+
+body{
+    color: $primary;
+    background-color: $light;
+}
+a {
+    color: $primary;
+    background-color: $white;
+    
+}
+.w-input{
+    font-size: 16px !important;
+}
+.w-button{
+    color: $white;
+    &.primary {
+        &--bg{
+            color: $white;
+            background-color: $primary;
+        }
+        &--bg:hover{
+            color: $white;
+            // background-color: $light;
+            // color: $primary;
+            // border: 1px solid $primary;
+        }
+    }
+    &.secondary {
+        &--bg{
+            color: $white;
+            background-color: $secondary-dark;
+        }
+        &--bg:hover{
+            color: $white;
+        }
+    }
+    &:focus:after{
+        transform: none !important;
+        opacity: .08 !important;
+        transition: none !important;
+    }
+}
+.w-form {
+    .w-form-el {
+        margin-bottom: 5px;
+    }
+}

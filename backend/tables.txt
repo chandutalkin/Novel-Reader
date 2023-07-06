@@ -1,0 +1,33 @@
+CREATE TABLE `Novels` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(145) NOT NULL,
+  `slug` varchar(225) NOT NULL,
+  `author` varchar(100) DEFAULT NULL,
+  `description` longtext,
+  `img` varchar(225) DEFAULT NULL,
+  `rating` decimal(8,2) DEFAULT NULL,
+  `popularity` int DEFAULT NULL,
+  `createdBy` int DEFAULT '1',
+  `createdAt` timestamp(6) NULL DEFAULT NULL,
+  `info` json DEFAULT NULL,
+  `novelId` varchar(195) DEFAULT NULL,
+  `url` varchar(225) DEFAULT NULL,
+  `scraped` tinyint(1) DEFAULT '0',
+  `updatedAt` timestamp(6) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `slug_UNIQUE` (`slug`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `NovelChapters` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `novel_id` int NOT NULL,
+  `title` varchar(145) DEFAULT NULL,
+  `slug` varchar(225) DEFAULT NULL,
+  `content` longtext,
+  `createdBy` int DEFAULT NULL,
+  `createdAt` timestamp(6) NULL DEFAULT NULL,
+  `scrape_url` varchar(225) DEFAULT NULL,
+  `updatedAt` timestamp(6) NULL DEFAULT NULL,
+  `error_content` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

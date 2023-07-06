@@ -1,0 +1,19 @@
+{
+  "name": "novelscrape-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "sequelize -h localhost -d novels -u root -x 12345678 -p 3306  --dialect mysql -o ./models"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adminjs/express": "^5.1.0",
+    "@adminjs/sequelize": "^3.0.0",
+    "adminjs": "^6.8.4",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.28.0"
+  }
+}
