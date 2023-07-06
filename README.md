@@ -8,18 +8,18 @@ A ready to use responsive web app template powered by VueJs &amp; node Js. It co
 
 # step2
  go to novelscrape-admin folder run below command
- # node app.js
+ node app.js
  create records for your project using admin panel
 
 # step3
  run backend
- # npm run backend
+ npm run backend
 
 # step4
  go to frontend folder run below command to start frontend
- # npm run dev
+ npm run dev
 
 # to run admin panel
  go to novelscrape-admin folder run below command
- # node app.js
+ node app.js
 
