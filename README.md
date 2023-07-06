@@ -4,7 +4,7 @@ A ready to use responsive web app template powered by VueJs &amp; node Js. It co
 
 # step1 
  create a database "sampleProjectData"
- run create table scripts in backend/tables.txt file
+ <br />create tables using sql scripts in backend/tables.txt file
 
 # step2
  go to novelscrape-admin folder run <br /> node app.js <br />
@@ -12,13 +12,13 @@ A ready to use responsive web app template powered by VueJs &amp; node Js. It co
 
 # step3
  run backend
- " npm run backend "
+ <br />npm run backend
 
 # step4
  go to frontend folder run below command to start frontend
- npm run dev
+ <br />npm run dev
 
 # to run admin panel
  go to novelscrape-admin folder run below command
- node app.js
+ <br />node app.js
 
